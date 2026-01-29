@@ -5,6 +5,7 @@ def hello(request):
     return HttpResponse("Hello")
 def hi(request):
     
-    return HttpResponse("Hi")
+    # return HttpResponse("Hi")
+    return render(request,"hi.html")
 
 
